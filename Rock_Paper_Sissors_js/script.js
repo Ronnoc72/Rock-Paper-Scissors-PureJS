@@ -156,10 +156,13 @@ function reveal() {
 	winScreen.classList.remove("hide");
 	if (paper_oponent) {
 		paper.classList.remove("hide");
+		paper.classList.add("size");
 	} else if (rock_oponent) {
 		rock.classList.remove("hide");
+		rock.classList.add("size");
 	} else if (scissors_oponent) {
 		scissors.classList.remove("hide");
+		scissors.classList.add("size");
 	}
 	
 	if (paper_choice && paper_oponent) {
