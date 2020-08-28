@@ -1,0 +1,85 @@
+
+body {
+	background: #ffefde;
+}
+
+.center {
+	margin: auto;
+  	width: 25%;
+  	padding: 10px;
+}
+
+.buttons {
+	margin: auto;
+  	width: 25%;
+  	padding: 10px;
+}
+
+button {
+	margin: 10px;
+	padding: 10px 20px 10px 20px;
+	border: none;
+	background-color: #ffd5a8;
+	border-radius: 10%;
+}
+
+button:hover {
+	transition: 200ms;
+	background: linear-gradient(180deg, #ffdeba, #ffc485);
+	box-shadow: -5px 4px #b8b8b8;
+	border-radius: 20%;
+	padding: 10px 25px 10px 25px;
+}
+
+.hide {
+	display: none;
+}
+
+.center-text {
+	text-align: center;
+	font-size: 25px;
+	color: #e6c86e;
+	text-shadow: -1px 1px #b8b8b8;
+	text-decoration: underline;
+}
+
+.play-button {
+	font-size: 20px;
+	background: #d4e4ff;
+	padding: 10px 25px 10px 25px;
+}
+
+.play-button:hover {
+	transition: 200ms;
+	background: #b5d1ff;
+	padding: 10px 30px 10px 30px;
+}
+
+.center-play {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+  	width: 50%;
+}
+
+.p-class {
+	text-align: center;
+}
+
+.show-time {
+	background: grey;
+}
+
+.oponent {
+	font-size: 30px;
+	color: #cfff57;
+	text-align: center;
+}
+
+.winning-text {
+	font-size: 50px;
+	color: #fffc4d;
+	text-align: center;
+	padding: 10px 0px 10px 0px;
+	border: 2px dashed #d4d119;
+}

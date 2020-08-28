@@ -1,0 +1,33 @@
+<DOCTYPE!>
+<html>
+	<head>
+		<title>Rock Paper Scissors</title>
+		<meta name="author" content="@ConnorPaxman" />
+		<meta name="description" content="The Rock Paper Scissors game" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body id="real-body">
+	<div id="winning-screen" class="hide">
+		<p class="oponent">Oponent's pick</p>
+		<img class="hide" id="rock" src="Rock.png" width="50px" />
+		<img class="hide" id="paper" src="Paper.png" width="50px" />
+		<img class="hide" id="scissors" src="Scissor.png" width="50px" />
+	</div>
+	<div id="main-body">
+		<script src="script.js"></script>
+		<div class="center" id="images">
+			<img src="Rock.png" width="100px" />
+			<img src="Paper.png" width="100px" />
+			<img src="Scissor.png" width="100px" />
+		</div>
+		<div id="choice"></div>
+		<div class="buttons" id="buttons">
+			<button onclick="rock()">Rock</button>
+			<button onclick="paper()">Paper</button>
+			<button onclick="scissors()">Scissors</button>
+			<button class="play-button" onclick="play()">Play</button>
+		</div>
+	</div>
+	</body>
+</html>
